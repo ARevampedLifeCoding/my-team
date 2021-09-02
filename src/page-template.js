@@ -40,12 +40,12 @@ const createProfile = (team) => {
         <section class="section">
         <div class="container">
         <div class="card">
-            <div class="card-header">
-                <h2 class="card-header-title">${manager.getName()}</h2>
-                <h4 class="card-header-title">Title: ${manager.getPosition()}</h4>
+            <div class="card-title">
+                <h2 class="card-subtitle">${manager.getName()}</h2>
+                <h4 class="card-subtitle">Title: ${manager.getPosition()}</h4>
             </div>
             <div class="card-content">
-                <ul class="">
+                <ul>
                     <li class="list-group-item">ID: ${manager.getId()}</li>
                     <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
                     <li class="list-group-item">Office number: <a href="tel:${manager.getOfficeNumber()}">${manager.getOfficeNumber()}</a></li>
@@ -62,9 +62,9 @@ const createProfile = (team) => {
         <section class="section">
         <div class="container">
         <div class="card">
-            <div class="card-header">
+            <div class="card-title">
                 <h2 class="">${engineer.getName()}</h2>
-                <h4 class="card-header-title">Title: ${engineer.getPosition()}</h4>
+                <h4 class="card-subtitle">Title: ${engineer.getPosition()}</h4>
             </div>
             <div class="card-content">
                 <ul class="list-group text-dark">
@@ -84,12 +84,12 @@ const createProfile = (team) => {
         <section class="section">
         <div class="container">
         <div class="card">
-            <div class="card-header">
-                <h2 class="card-header-title">${intern.getName()}</h2>
-                <h4 class="card-header-title">Title: ${intern.getPosition()}</h4>
+            <div class="card-title">
+                <h2 class="card-subtitle">${intern.getName()}</h2>
+                <h4 class="card-subtitle">Title: ${intern.getPosition()}</h4>
             </div>
-            <div class="">
-                <ul class="">
+            <div>
+                <ul>
                     <li class="list-group-item">ID: ${intern.getId()}</li>
                     <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
                     <li class="list-group-item">School: ${intern.getSchool()}</li>
