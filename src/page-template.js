@@ -14,7 +14,7 @@ module.exports = (team) => {
     <body>
         <section class="bg-danger">
         <div class="hero-body">
-        <h1 class="title is-center">
+        <h1 class="title text-center">
             My Team
         </h1>
         </div>
