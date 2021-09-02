@@ -7,12 +7,12 @@ module.exports = (team) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Team Profile Generator</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/style.css">
         
     </head>
     <body>
-        <section class="hero is-danger">
+        <section class="bg-danger">
         <div class="hero-body">
         <h1 class="title is-center">
             My Team
@@ -28,11 +28,11 @@ module.exports = (team) => {
         </div>
     
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
     </html>
     `;
 };
-
 
 const createProfile = (team) => {
   const createManager = (manager) => {
@@ -57,7 +57,6 @@ const createProfile = (team) => {
         `;
   };
 
-
   const createEngineer = (engineer) => {
     return `
         <section class="section">
@@ -80,7 +79,6 @@ const createProfile = (team) => {
         `;
   };
 
- 
   const createIntern = (intern) => {
     return `
         <section class="section">
