@@ -21,6 +21,9 @@ If you would like to use this Team information generator, just fork the repo and
 ## Instructions
 
 Use this app to make a list and keep all your teams info in one place with clickable links!
+Link to the video on how to use the app.
+
+<a href="https://drive.google.com/file/d/1c9oL4Qf-4GQVFbGcyxKNPgdRfqNkJZv_/view" target="_blank">Screen Cast</a>
 
 ## Credits
 
